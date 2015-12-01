@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CooTD3" version="4">
+  <OBJECT>
+    <ID name="CooTD3" mc="Standard.DiagramSet" uid="fe93945f-9310-4ad3-a100-7a08bd7fd4da"/>
+    <PID name="CooTD3" mc="Standard.Project" uid="43f55ee1-61b1-4a39-bc93-839d00661af5"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[CooTD3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
