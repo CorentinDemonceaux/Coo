@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("762225a8-5556-46e4-97b9-f33284cb8047")
+public class Jet {
+    @objid ("fe5ce10c-e452-4eac-868b-f7e00f87756e")
+    public String marque;
+
+    @objid ("19cb4b45-403c-41d1-af44-74f851c1c84d")
+    public String modele;
+
+    @objid ("13886bb9-7a65-4c1c-8e06-ca4013c8be57")
+    public Fuselage fuselage;
+
+    @objid ("34e54f2a-2a28-4975-aac2-b19bdc35bf20")
+    public List<Reacteur> reacteur = new ArrayList<Reacteur> ();
+
+    @objid ("18df8486-87da-4ccf-a5c3-3389d1332df8")
+    public String toString() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    @objid ("8c823c64-fa3a-44d7-b57d-271c24a57246")
+    public Jet(final String marque, final String modele, final Fuselage fuselage, final String react) {
+    }
+
+}

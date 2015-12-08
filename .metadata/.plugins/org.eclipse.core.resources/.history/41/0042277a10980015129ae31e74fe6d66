@@ -1,0 +1,27 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("e5a603a1-2195-4fbd-88ff-0d94f4ba2926")
+public abstract class UsineJet {
+    @objid ("37e6e18f-3d46-4930-97dd-827548e0a066")
+    private String constructeur;
+
+    @objid ("893e791e-64f3-484c-8e86-0b91ea3d8978")
+    private String ville;
+
+    @objid ("c8a27732-4a71-4528-b866-ca6686207954")
+    public String toString() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    @objid ("807303c3-1f6d-4fc1-84a3-ea045c95a454")
+    public Jet fabriqueJet(final String modele, final String marque) {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    @objid ("b044401f-64b5-4a33-9fa4-ebf4c554ef71")
+    public UsineJet(final String ville, final String nom) {
+    }
+
+}

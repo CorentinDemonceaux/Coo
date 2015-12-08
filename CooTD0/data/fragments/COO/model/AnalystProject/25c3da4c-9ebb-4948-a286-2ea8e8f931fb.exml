@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="COO" version="4">
+  <OBJECT>
+    <ID name="COO" mc="Standard.AnalystProject" uid="25c3da4c-9ebb-4948-a286-2ea8e8f931fb"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[COO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="COO" mc="Standard.PropertyContainer" uid="9f5905ac-0149-4599-93df-79318e741580"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

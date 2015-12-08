@@ -1,0 +1,14 @@
+
+public abstract class UsineJet 
+{
+    private String constructeur;
+    private String ville;
+
+    public abstract Jet fabriqueJet(final String modele, final String marque);
+
+    public UsineJet( String ville, String nom)
+    {
+    	this.constructeur = nom;
+    	this.ville = ville;
+    }
+}

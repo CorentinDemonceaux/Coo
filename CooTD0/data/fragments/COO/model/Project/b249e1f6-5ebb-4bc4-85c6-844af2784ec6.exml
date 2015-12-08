@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="COO" version="4">
+  <OBJECT>
+    <ID name="COO" mc="Standard.Project" uid="b249e1f6-5ebb-4bc4-85c6-844af2784ec6"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[COO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="COO" mc="Standard.DiagramSet" uid="1e60b2ba-be87-432f-aa4e-abd41d0ebca3"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="coo" mc="Standard.Package" uid="44d2f2e8-e1f9-4122-ae34-6903cb233c95"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,9 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("534441dd-efd0-4ef0-8ab5-d3865e1bd9b8")
+public class A380 extends Jet {
+    @objid ("4543d6e8-723d-4a99-b34e-feaee6914acd")
+    public A380(final Fuselage fuselage, final Reacteur react) {
+    }
+
+}

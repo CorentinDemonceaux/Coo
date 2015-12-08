@@ -1,0 +1,15 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("330e2667-1180-4e41-b108-070b7845d183")
+public class UsineJetBoeing extends UsineJet {
+    @objid ("5480b7e2-3d9f-45e4-bed5-361ccc126da7")
+    public Jet fabriqueJet(final String modele, final String marque) {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    @objid ("8e0df175-7cc9-45f4-888e-48125e82e9a7")
+    public UsineJetBoeing(final String ville) {
+    }
+
+}

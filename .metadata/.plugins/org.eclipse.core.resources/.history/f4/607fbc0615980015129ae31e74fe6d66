@@ -1,0 +1,21 @@
+
+public class UsineJetBoeing extends UsineJet 
+{
+    public Jet fabriqueJet( String modele, String marque)
+    {
+    	if(modele.equals("B737"))
+    	{
+    		
+    	}
+    	if(modele.equals("B747"))
+    	{
+    		
+    	}
+    }
+
+    public UsineJetBoeing(String ville) 
+    {
+    	super("Boeing",ville);
+    }
+
+}

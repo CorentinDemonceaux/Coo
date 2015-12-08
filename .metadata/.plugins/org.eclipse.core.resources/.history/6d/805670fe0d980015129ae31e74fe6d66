@@ -1,0 +1,21 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("d3ffc994-0c4f-4431-9790-6cf7392dc809")
+public class Fuselage {
+    @objid ("8a1e04b0-2ca0-46e7-9ecc-40b5e98fb83b")
+    private int capacite;
+
+    @objid ("0bd7117a-b253-4770-bb9b-1a7468d96ca0")
+    private int poids;
+
+    @objid ("b9f10724-7c59-4b07-b6df-ae4ea43bde3c")
+    public String toString() {
+        // TODO Auto-generated return
+        return null;
+    }
+
+    @objid ("09904ad5-f2a0-46ee-870f-c8a1c3ce9969")
+    public Fuselage(final int capacite, final int poids) {
+    }
+
+}

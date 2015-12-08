@@ -1,0 +1,9 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("c3366168-b6ba-4fa5-89a3-b7d3f12dda6a")
+public class B747 extends Jet {
+    @objid ("422c1821-0296-40b7-91ce-15586989c363")
+    public B747(final Fuselage fuselage, final Reacteur react) {
+    }
+
+}

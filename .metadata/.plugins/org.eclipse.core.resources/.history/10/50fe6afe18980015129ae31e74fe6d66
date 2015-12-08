@@ -1,0 +1,25 @@
+
+public class UsineJetAirbus extends UsineJet 
+{
+	
+    public Jet fabriqueJet( String modele, String marque) 
+    {
+    	if(modele.equals("A320"))
+    	{
+    		Jet j = new A320();
+    		return j;
+    	}
+    	
+    	if(modele.equals("A380"))
+    	{
+    		Jet j = new A380();
+    		return j;
+    	}
+    }
+    
+    public UsineJetAirbus( String ville) 
+    {
+    	super("Airbus", ville);
+    }
+
+}

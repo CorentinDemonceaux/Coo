@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Class" version="4">
+  <OBJECT>
+    <ID name="Class" mc="Standard.Class" uid="55f5281e-e169-4b32-bdb2-a64b69e3bde7"/>
+    <PID name="uml_deadlines" mc="Standard.Package" uid="7817e538-bec1-4548-9be0-00b93dfdccda"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Class]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Utilisateur" mc="Standard.Actor" uid="ed1560cd-97b8-42e9-b14c-7669e29e8b82"/>
+        <COMPID name="Consulter les tâches" mc="Standard.UseCase" uid="9cebeac5-3873-49d9-93df-86dbf3998e2c"/>
+        <COMPID name="Gérer les tâches" mc="Standard.UseCase" uid="9791bc4d-4cfe-4d3d-b2a1-14410c29e175"/>
+        <COMPID name="Système" mc="Standard.Actor" uid="b88c58cc-1a32-45b3-b0e2-40603f7b8075"/>
+        <COMPID name="Gérer les deadlines " mc="Standard.UseCase" uid="74b9da62-85ea-43fc-aab3-77f17fb2bebe"/>
+        <COMPID name="Avertir l'utilisateur " mc="Standard.UseCase" uid="b1cc526d-fab4-48af-9073-56a287eda798"/>
+        <COMPID name="Ajouter / supprimer des tâches" mc="Standard.UseCase" uid="5a56f31f-7438-4695-95b4-ca35888388f9"/>
+        <COMPID name="Modifier les tâches" mc="Standard.UseCase" uid="2d015204-b35e-4edf-9729-39c116e1e3f1"/>
+        <COMPID name="Recevoir une notification" mc="Standard.UseCase" uid="ef888d0b-2ce0-4efa-94e8-3e4fd9a491cc"/>
+        <COMPID name="Recevoir un email" mc="Standard.UseCase" uid="fbe93ba0-d7d6-4e0c-ae5c-1525353bb86a"/>
+        <COMPID name="Recevoir une notification sur le site" mc="Standard.UseCase" uid="a999eaa0-66b1-4b48-bd7b-bd12c86910e1"/>
+        <COMPID name="Recalculer la date d'une tâche" mc="Standard.UseCase" uid="6cf686ea-26c1-4761-bf88-ae8a0359f1b7"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Class Use Case diagram" mc="Standard.UseCaseDiagram" uid="389e6d13-f458-4149-9c99-b9d90012a862"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+public class UsineJetAirbus extends UsineJet 
+{
+	
+    public Jet fabriqueJet( String modele, String marqueReact) 
+    {
+    	if(modele.equals("A320"))
+    	{
+    		Fuselage fu = new Fuselage(120,30);
+    		ArrayList<Reacteur> react = new ArrayList<Reacteur>();
+    		
+    		if(marqueReact.equals("RollRoyce"))
+    		{
+    			react.add( new RollRoyce(5,10));
+    			react.add( new RollRoyce(5,10));
+    		}
+    	}
+    	
+    	if(modele.equals("A380"))
+    	{
+    		
+    	}
+    	return  null;
+    }
+    
+    public UsineJetAirbus( String ville) 
+    {
+    	super("Airbus", ville);
+    }
+
+}

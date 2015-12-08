@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="coo" version="4">
+  <OBJECT>
+    <ID name="coo" mc="Standard.Package" uid="44d2f2e8-e1f9-4122-ae34-6903cb233c95"/>
+    <PID name="COO" mc="Standard.Project" uid="b249e1f6-5ebb-4bc4-85c6-844af2784ec6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[coo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Robot" mc="Standard.Class" uid="734b0900-dd59-49b3-804e-b0c334cf3776"/>
+        <COMPID name="Casier" mc="Standard.Class" uid="8ade3d39-076f-4d18-a01f-4d0ba6ca2233"/>
+        <COMPID name="Deplacement" mc="Standard.Interface" uid="fb5ca9fc-762a-485c-b9c2-99d199ee2eac"/>
+        <COMPID name="Voler" mc="Standard.Class" uid="8f901c6b-2e7b-4cef-bf45-fb9b22baf122"/>
+        <COMPID name="Rouler" mc="Standard.Class" uid="8201260b-99f2-4048-8ad0-e84ef3e2ab22"/>
+        <COMPID name="Manipuler" mc="Standard.Interface" uid="4dc436ca-9521-4dae-814f-d7454e97fca3"/>
+        <COMPID name="Magnetiser" mc="Standard.Class" uid="c8efbb34-2714-49ec-88a6-3759d5fada4e"/>
+        <COMPID name="Pincer" mc="Standard.Class" uid="27611eeb-7ae6-4c77-9033-9db007f1cd13"/>
+        <COMPID name="Drone" mc="Standard.Class" uid="427cd18d-854d-4abd-8fc5-e96dd1af64ec"/>
+        <COMPID name="AutoTracteur" mc="Standard.Class" uid="6916d0d2-7895-4e7a-9a3e-c343b8a5a030"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="ebd24170-7390-49fe-b623-8a9188d32424"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

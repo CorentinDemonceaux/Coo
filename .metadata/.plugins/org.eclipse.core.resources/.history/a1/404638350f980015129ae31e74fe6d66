@@ -1,0 +1,9 @@
+import com.modeliosoft.modelio.javadesigner.annotations.objid;
+
+@objid ("e81ceeef-4a31-4243-b0ff-81dfd38ed942")
+public class Trent extends Reacteur {
+    @objid ("4223c464-b51e-4fe0-a624-41d681fc3a54")
+    public Trent(final int poids, final int pousee) {
+    }
+
+}

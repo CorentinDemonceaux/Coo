@@ -1,0 +1,15 @@
+
+public class UsineJetAirbus extends UsineJet 
+{
+	
+    public Jet fabriqueJet( String modele, String marque) 
+    {
+
+    }
+    
+    public UsineJetAirbus( String ville) 
+    {
+    	super("Airbus", ville);
+    }
+
+}
